@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body> 
+<div class="group"> 
+    <form method="POST" action="formulario.php">
+    <h2>Formulario de registro</h2>
+<label for="nombre">Nombre <span>(requerido)</span></label>
+<input type="text" name="nombre" class="form-input" required/>
+
+<label for="apellido">Apellido <span>(requerido)</span></label>
+<input type="text" name="apellido" class="form-input" required/>
+
+<label for="email">Email <span>(requerido)</span></label>
+<input type="email" name="email" class="form-input" /> 
+
+<button type="submit" name="submit" class="btn btn-primary my-2">Enviar</button>
+
+</form>
+</div>
+</body>
+</html>

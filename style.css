@@ -1,0 +1,43 @@
+body {
+
+    font-weight: bold;
+    background-color: #EBDEF0; 
+  }
+  
+  form {
+    background-color: #D7BDE2; 
+    padding: 30px;
+    width: 400px;
+    margin: auto; 	
+  	margin-top: 100px;
+  	border-radius: 6px;
+  	font-family: 'calibri';
+ 	  color: #5B2C6F;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #5B2C6F;
+
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 390px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #FDFEFE;
+    margin-bottom: 10px;
+    display: flex;
+  
+    
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: #5B2C6F;
+    color: #fff;
+    font-weight: bold;
+  }
